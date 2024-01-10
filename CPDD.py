@@ -44,10 +44,10 @@ def predict(image):
 # Define Streamlit app
 def main():
     # Set app title
-    st.title('Cotton Plant Disease Detection')
+    st.title('Cotton Plant Disease Detection [BETA]')
     # Set app description
     st.write('This app helps you to detect the type of disease in a cotton plant.')
-    st.write('NOTE- This model only works on Cotton Plant. (With appropriate Image)')
+    st.write('NOTE- This model only works on Cotton Plant. (It's under development, which predicts the exact disease of plant)')
     # Add file uploader for input image
     uploaded_file = st.file_uploader('Choose an image', type=['jpg', 'jpeg', 'png'])
     # If file uploaded, display it and make prediction
